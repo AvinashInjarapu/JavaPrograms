@@ -1,4 +1,4 @@
-public class One_ReverseString {
+public class I_ReverseString {
     public static void main(String[] args) {
         String str = "Hello, World!";
         System.out.println("Original String: " + str);
