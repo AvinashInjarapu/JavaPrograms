@@ -1,4 +1,4 @@
-public class Two_StringPalindrome {
+public class II_StringPalindrome {
     public static void main(String[] args) {
         String str = "markram";
         System.out.println("Original String: " + str);
@@ -13,7 +13,7 @@ public class Two_StringPalindrome {
     }
 
     public static boolean isPalindrome(String str) {
-        String reversedStr = One_ReverseString.usingStringBuilder(str);
+        String reversedStr = I_ReverseString.usingStringBuilder(str);
         return str.equals(reversedStr);
     }
 
